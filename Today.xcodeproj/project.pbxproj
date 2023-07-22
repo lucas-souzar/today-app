@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE6B97CA2A6B23C400D932E3 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B97C92A6B23C400D932E3 /* ReminderListViewController+DataSource.swift */; };
+		BE6B97CC2A6BCAEC00D932E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6B97CB2A6BCAEC00D932E3 /* Assets.xcassets */; };
+		BE6B97CE2A6BCB2200D932E3 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6B97CD2A6BCB2200D932E3 /* UIColor+Today.swift */; };
+		BE8FF7DE2A576737001FD416 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8FF7DD2A576737001FD416 /* Date+Today.swift */; };
 		BE9D3B1A2A38BE3C0057E3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D3B192A38BE3C0057E3B4 /* AppDelegate.swift */; };
 		BE9D3B1C2A38BE3C0057E3B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D3B1B2A38BE3C0057E3B4 /* SceneDelegate.swift */; };
-		BE9D3B1E2A38BE3C0057E3B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D3B1D2A38BE3C0057E3B4 /* ViewController.swift */; };
+		BE9D3B1E2A38BE3C0057E3B4 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D3B1D2A38BE3C0057E3B4 /* ReminderListViewController.swift */; };
 		BE9D3B212A38BE3C0057E3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9D3B1F2A38BE3C0057E3B4 /* Main.storyboard */; };
-		BE9D3B232A38BE3D0057E3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9D3B222A38BE3D0057E3B4 /* Assets.xcassets */; };
 		BE9D3B262A38BE3D0057E3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9D3B242A38BE3D0057E3B4 /* LaunchScreen.storyboard */; };
+		BE9D3B2F2A38C0CD0057E3B4 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9D3B2E2A38C0CD0057E3B4 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE6B97C92A6B23C400D932E3 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
+		BE6B97CB2A6BCAEC00D932E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/DisplayingCellInfo/StartingProject/Today/Assets.xcassets; sourceTree = "<group>"; };
+		BE6B97CD2A6BCB2200D932E3 /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Today.swift"; path = "../../../../../Downloads/DisplayingCellInfo/StartingProject/Today/Models/UIColor+Today.swift"; sourceTree = "<group>"; };
+		BE8FF7DD2A576737001FD416 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		BE9D3B162A38BE3C0057E3B4 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9D3B192A38BE3C0057E3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE9D3B1B2A38BE3C0057E3B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE9D3B1D2A38BE3C0057E3B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE9D3B1D2A38BE3C0057E3B4 /* ReminderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
 		BE9D3B202A38BE3C0057E3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE9D3B222A38BE3D0057E3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE9D3B252A38BE3D0057E3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE9D3B272A38BE3D0057E3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9D3B2E2A38C0CD0057E3B4 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE6B97C82A6B235E00D932E3 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D3B1D2A38BE3C0057E3B4 /* ReminderListViewController.swift */,
+				BE6B97C92A6B23C400D932E3 /* ReminderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
 		BE9D3B0D2A38BE3C0057E3B4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +73,26 @@
 		BE9D3B182A38BE3C0057E3B4 /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				BE9D3B2D2A38C0880057E3B4 /* Models */,
 				BE9D3B192A38BE3C0057E3B4 /* AppDelegate.swift */,
 				BE9D3B1B2A38BE3C0057E3B4 /* SceneDelegate.swift */,
-				BE9D3B1D2A38BE3C0057E3B4 /* ViewController.swift */,
+				BE6B97C82A6B235E00D932E3 /* ListViewController */,
 				BE9D3B1F2A38BE3C0057E3B4 /* Main.storyboard */,
-				BE9D3B222A38BE3D0057E3B4 /* Assets.xcassets */,
+				BE6B97CB2A6BCAEC00D932E3 /* Assets.xcassets */,
 				BE9D3B242A38BE3D0057E3B4 /* LaunchScreen.storyboard */,
 				BE9D3B272A38BE3D0057E3B4 /* Info.plist */,
 			);
 			path = Today;
+			sourceTree = "<group>";
+		};
+		BE9D3B2D2A38C0880057E3B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE9D3B2E2A38C0CD0057E3B4 /* Reminder.swift */,
+				BE8FF7DD2A576737001FD416 /* Date+Today.swift */,
+				BE6B97CD2A6BCB2200D932E3 /* UIColor+Today.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE9D3B262A38BE3D0057E3B4 /* LaunchScreen.storyboard in Resources */,
-				BE9D3B232A38BE3D0057E3B4 /* Assets.xcassets in Resources */,
+				BE6B97CC2A6BCAEC00D932E3 /* Assets.xcassets in Resources */,
 				BE9D3B212A38BE3C0057E3B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE9D3B1E2A38BE3C0057E3B4 /* ViewController.swift in Sources */,
+				BE6B97CE2A6BCB2200D932E3 /* UIColor+Today.swift in Sources */,
+				BE9D3B1E2A38BE3C0057E3B4 /* ReminderListViewController.swift in Sources */,
+				BE8FF7DE2A576737001FD416 /* Date+Today.swift in Sources */,
 				BE9D3B1A2A38BE3C0057E3B4 /* AppDelegate.swift in Sources */,
 				BE9D3B1C2A38BE3C0057E3B4 /* SceneDelegate.swift in Sources */,
+				BE9D3B2F2A38C0CD0057E3B4 /* Reminder.swift in Sources */,
+				BE6B97CA2A6B23C400D932E3 /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
